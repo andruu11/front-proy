@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Varela+Round");
+*,
+*:after,
+*:before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit; }
+
 body {
   font-family: "Varela Round";
-  margin-top: 200px;
-  margin-bottom: 500px;
   background-color: #FAFAFA; }
 
 .cont-nivel {
@@ -252,7 +258,7 @@ span.curso {
   position: relative; }
   .inputGroup label {
     padding: 12px 30px;
-    width: 100%;
+    width: 80%;
     display: block;
     text-align: left;
     color: #424242;
@@ -324,3 +330,46 @@ span.curso {
     transform: translateY(-50%);
     cursor: pointer;
     visibility: hidden; }
+
+/***Index***/
+.header-page {
+  top: 0;
+  width: 100%;
+  min-height: 80vh;
+  background-image: url(../fondo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  color: #FAFAFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+img.logo {
+  width: 40px;
+  margin: 10px 0; }
+
+.botones-header {
+  margin-top: 250px; }
+
+.btn-header {
+  font-size: 1.8rem;
+  padding: 1.5rem 2rem;
+  margin: 0 10px; }
+
+img.uno {
+  width: 90%;
+  margin: auto; }
+
+.content-page {
+  margin: 200px 0; }
+
+footer {
+  background-color: #397cc7;
+  padding: 20px 0;
+  color: #FAFAFA; }
