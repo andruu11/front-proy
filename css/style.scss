@@ -360,3 +360,35 @@
             padding: 20px 0;
             color: #FAFAFA;
         }
+        /********PUNTAJE*********/
+        
+        .puntaje {
+            width: 90%;
+            margin: auto;
+            background: #FFF;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            padding-top: 50px;
+        }
+        
+        .puntaje-title {
+            background-color: #397cc7;
+            padding: 15px;
+            text-align: center;
+            color: #FAFAFA;
+            width: 100%;
+            margin-bottom: 100px;
+        }
+        
+        @media screen and (min-width: 680px) {
+            .puntaje {
+                margin: 200px 0;
+                width: 50%;
+                margin: auto;
+                background: #FFF;
+                display: flex;
+                justify-content: center;
+            }
+        }
